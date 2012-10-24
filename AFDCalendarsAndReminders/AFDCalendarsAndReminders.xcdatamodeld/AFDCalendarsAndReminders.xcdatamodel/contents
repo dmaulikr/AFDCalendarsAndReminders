@@ -1,4 +1,50 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="12C60" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Calendar" representedClassName="AFDCalendarManagedObject" syncable="YES">
+        <relationship name="hasDeliveryBreaks" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DeliveryBreak" inverseName="inCalendar" inverseEntity="DeliveryBreak" syncable="YES"/>
+        <relationship name="hasReminders" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Reminder" inverseName="inCalendar" inverseEntity="Reminder" syncable="YES"/>
+    </entity>
+    <entity name="DeliveryBreak" representedClassName="AFDDeliveryBreakManagedObject" syncable="YES">
+        <attribute name="commentID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="creationTimeStamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="customerCode" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="modificationTimeStamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="needToSyn" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="suspensionendDate" attributeType="String" defaultValueString="now" syncable="YES"/>
+        <attribute name="suspensionID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="suspensionStartDate" attributeType="String" defaultValueString="now" syncable="YES"/>
+        <attribute name="synchronisationTimeStamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="userActionType" optional="YES" attributeType="String" defaultValueString="none" syncable="YES">
+            <userInfo>
+                <entry key="AFDUserActionTypeCreate" value="create"/>
+                <entry key="AFDUserActionTypeDelete" value="delete"/>
+                <entry key="AFDUserActionTypeNone" value="none"/>
+                <entry key="AFDUserActionTypeUpdate" value="update"/>
+            </userInfo>
+        </attribute>
+        <relationship name="inCalendar" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Calendar" inverseName="hasDeliveryBreaks" inverseEntity="Calendar" syncable="YES"/>
+    </entity>
+    <entity name="Reminder" representedClassName="AFDReminderManagedObject" syncable="YES">
+        <attribute name="reminderAlertType" attributeType="Integer 16" minValueString="0" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="AFDReminderAlertTypeFortnightly" value="Fortnightly"/>
+                <entry key="AFDReminderAlertTypeOnce" value="Once only"/>
+                <entry key="AFDReminderAlertTypeWeekly" value="Weekly"/>
+            </userInfo>
+        </attribute>
+        <attribute name="reminderBadgesEnabled" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="reminderDateAndTime" attributeType="Date" defaultDateTimeInterval="372749258.927226" defaultValueString="now" syncable="YES"/>
+        <attribute name="reminderDayString" attributeType="String" syncable="YES"/>
+        <attribute name="reminderDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reminderLocalNotification" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="reminderMinutesBeforeFire" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="reminderSoundEnabled" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="reminderTitle" optional="YES" attributeType="String" defaultValueString="New Reminder" syncable="YES"/>
+        <relationship name="inCalendar" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Calendar" inverseName="hasReminders" inverseEntity="Calendar" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Calendar" positionX="-3377" positionY="-3708" width="128" height="73"/>
+        <element name="DeliveryBreak" positionX="-3672" positionY="-3870" width="180" height="208"/>
+        <element name="Reminder" positionX="-3663" positionY="-3636" width="171" height="193"/>
+    </elements>
 </model>

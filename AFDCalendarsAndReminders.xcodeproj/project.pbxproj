@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF1FC41A1636269500E5524A /* DateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1FC4191636269500E5524A /* DateButton.m */; };
+		BF1FC42816364EDB00E5524A /* NSDate+dateComparison.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1FC42716364EDB00E5524A /* NSDate+dateComparison.m */; };
+		BF6F72BF16377F990018FF5F /* AFDDeliveryBreakManagedObject+Creation.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6F72BE16377F990018FF5F /* AFDDeliveryBreakManagedObject+Creation.m */; };
+		BF6F72C3163780950018FF5F /* AFDDeliveryBreakManagedObject+Deletion.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6F72C2163780950018FF5F /* AFDDeliveryBreakManagedObject+Deletion.m */; };
+		BF6F72C6163780D20018FF5F /* AFDDeliveryBreakManagedObject+Update.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6F72C5163780D20018FF5F /* AFDDeliveryBreakManagedObject+Update.m */; };
+		BF6F72CC1637A9CA0018FF5F /* AFDCalendarManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6F72CB1637A9C90018FF5F /* AFDCalendarManagedObject.m */; };
+		BF6F72CF1637A9CC0018FF5F /* AFDDeliveryBreakManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6F72CE1637A9CB0018FF5F /* AFDDeliveryBreakManagedObject.m */; };
+		BF6F72D81637AE550018FF5F /* AFDReminderManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6F72D71637AE550018FF5F /* AFDReminderManagedObject.m */; };
+		BFAC90C31634B7280029F7BB /* AFDCalendarDateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAC90C21634B7280029F7BB /* AFDCalendarDateButton.m */; };
+		BFAC91071634C31F0029F7BB /* UserOptionBarButton.png in Resources */ = {isa = PBXBuildFile; fileRef = BFAC91061634C31F0029F7BB /* UserOptionBarButton.png */; };
+		BFDC0F511630D099005C8981 /* AFDCalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFDC0F501630D098005C8981 /* AFDCalendarView.xib */; };
+		BFDC0F551630D26C005C8981 /* AFDCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDC0F541630D26B005C8981 /* AFDCalendarView.m */; };
+		BFDC0F991630D4C0005C8981 /* SMUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDC0F981630D4C0005C8981 /* SMUtilities.m */; };
+		BFDC0FA51630EF23005C8981 /* UIView+GradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDC0FA41630EF22005C8981 /* UIView+GradientLayer.m */; };
 		BFECAA8D162B8CB7006895F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFECAA8C162B8CB7006895F1 /* UIKit.framework */; };
 		BFECAA8F162B8CB7006895F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFECAA8E162B8CB7006895F1 /* Foundation.framework */; };
 		BFECAA91162B8CB7006895F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFECAA90162B8CB7006895F1 /* CoreGraphics.framework */; };
@@ -18,9 +32,43 @@
 		BFECAAA3162B8CB7006895F1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFECAAA2162B8CB7006895F1 /* Default@2x.png */; };
 		BFECAAA5162B8CB7006895F1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFECAAA4162B8CB7006895F1 /* Default-568h@2x.png */; };
 		BFECAAA8162B8CB7006895F1 /* AFDCalendarsAndReminders.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFECAAA6162B8CB7006895F1 /* AFDCalendarsAndReminders.xcdatamodeld */; };
+		BFECAAB4162B8D78006895F1 /* CKCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFECAAB0162B8D78006895F1 /* CKCalendarView.m */; };
+		BFECAAB5162B8D78006895F1 /* CKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFECAAB2162B8D78006895F1 /* CKViewController.m */; };
+		BFECAAB7162B8E8A006895F1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFECAAB6162B8E8A006895F1 /* QuartzCore.framework */; };
+		BFECAAB9162BAD02006895F1 /* CKViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFECAAB8162BAD02006895F1 /* CKViewControlleriPhone.xib */; };
+		BFECAABB162BAD14006895F1 /* CKViewControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFECAABA162BAD14006895F1 /* CKViewControlleriPad.xib */; };
+		BFECAACA162BBE26006895F1 /* AFDDeliveryBreakManagedObject+Addon.m in Sources */ = {isa = PBXBuildFile; fileRef = BFECAAC9162BBE26006895F1 /* AFDDeliveryBreakManagedObject+Addon.m */; };
+		BFECAACD162BBE3D006895F1 /* AFDCalendarManagedObject+Addon.m in Sources */ = {isa = PBXBuildFile; fileRef = BFECAACC162BBE3D006895F1 /* AFDCalendarManagedObject+Addon.m */; };
+		BFECAAD0162BBE4B006895F1 /* AFDReminderManagedObject+Addon.m in Sources */ = {isa = PBXBuildFile; fileRef = BFECAACF162BBE4B006895F1 /* AFDReminderManagedObject+Addon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF1FC4181636269500E5524A /* DateButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateButton.h; sourceTree = "<group>"; };
+		BF1FC4191636269500E5524A /* DateButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateButton.m; sourceTree = "<group>"; };
+		BF1FC42616364EDB00E5524A /* NSDate+dateComparison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+dateComparison.h"; sourceTree = "<group>"; };
+		BF1FC42716364EDB00E5524A /* NSDate+dateComparison.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+dateComparison.m"; sourceTree = "<group>"; };
+		BF6F72BD16377F990018FF5F /* AFDDeliveryBreakManagedObject+Creation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFDDeliveryBreakManagedObject+Creation.h"; sourceTree = "<group>"; };
+		BF6F72BE16377F990018FF5F /* AFDDeliveryBreakManagedObject+Creation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFDDeliveryBreakManagedObject+Creation.m"; sourceTree = "<group>"; };
+		BF6F72C1163780950018FF5F /* AFDDeliveryBreakManagedObject+Deletion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFDDeliveryBreakManagedObject+Deletion.h"; sourceTree = "<group>"; };
+		BF6F72C2163780950018FF5F /* AFDDeliveryBreakManagedObject+Deletion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFDDeliveryBreakManagedObject+Deletion.m"; sourceTree = "<group>"; };
+		BF6F72C4163780D20018FF5F /* AFDDeliveryBreakManagedObject+Update.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFDDeliveryBreakManagedObject+Update.h"; sourceTree = "<group>"; };
+		BF6F72C5163780D20018FF5F /* AFDDeliveryBreakManagedObject+Update.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFDDeliveryBreakManagedObject+Update.m"; sourceTree = "<group>"; };
+		BF6F72CA1637A9C90018FF5F /* AFDCalendarManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFDCalendarManagedObject.h; sourceTree = "<group>"; };
+		BF6F72CB1637A9C90018FF5F /* AFDCalendarManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFDCalendarManagedObject.m; sourceTree = "<group>"; };
+		BF6F72CD1637A9CB0018FF5F /* AFDDeliveryBreakManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFDDeliveryBreakManagedObject.h; sourceTree = "<group>"; };
+		BF6F72CE1637A9CB0018FF5F /* AFDDeliveryBreakManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFDDeliveryBreakManagedObject.m; sourceTree = "<group>"; };
+		BF6F72D61637AE540018FF5F /* AFDReminderManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFDReminderManagedObject.h; sourceTree = "<group>"; };
+		BF6F72D71637AE550018FF5F /* AFDReminderManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFDReminderManagedObject.m; sourceTree = "<group>"; };
+		BFAC90C11634B7280029F7BB /* AFDCalendarDateButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFDCalendarDateButton.h; sourceTree = "<group>"; };
+		BFAC90C21634B7280029F7BB /* AFDCalendarDateButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFDCalendarDateButton.m; sourceTree = "<group>"; };
+		BFAC91061634C31F0029F7BB /* UserOptionBarButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UserOptionBarButton.png; sourceTree = "<group>"; };
+		BFDC0F501630D098005C8981 /* AFDCalendarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AFDCalendarView.xib; sourceTree = "<group>"; };
+		BFDC0F531630D26B005C8981 /* AFDCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFDCalendarView.h; sourceTree = "<group>"; };
+		BFDC0F541630D26B005C8981 /* AFDCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFDCalendarView.m; sourceTree = "<group>"; };
+		BFDC0F971630D4C0005C8981 /* SMUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMUtilities.h; sourceTree = "<group>"; };
+		BFDC0F981630D4C0005C8981 /* SMUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMUtilities.m; sourceTree = "<group>"; };
+		BFDC0FA31630EF22005C8981 /* UIView+GradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GradientLayer.h"; sourceTree = "<group>"; };
+		BFDC0FA41630EF22005C8981 /* UIView+GradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GradientLayer.m"; sourceTree = "<group>"; };
 		BFECAA88162B8CB7006895F1 /* AFDCalendarsAndReminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFDCalendarsAndReminders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFECAA8C162B8CB7006895F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BFECAA8E162B8CB7006895F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,6 +84,19 @@
 		BFECAAA2162B8CB7006895F1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		BFECAAA4162B8CB7006895F1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		BFECAAA7162B8CB7006895F1 /* AFDCalendarsAndReminders.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AFDCalendarsAndReminders.xcdatamodel; sourceTree = "<group>"; };
+		BFECAAB0162B8D78006895F1 /* CKCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKCalendarView.m; sourceTree = "<group>"; };
+		BFECAAB1162B8D78006895F1 /* CKCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKCalendarView.h; sourceTree = "<group>"; };
+		BFECAAB2162B8D78006895F1 /* CKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKViewController.m; sourceTree = "<group>"; };
+		BFECAAB3162B8D78006895F1 /* CKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKViewController.h; sourceTree = "<group>"; };
+		BFECAAB6162B8E8A006895F1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BFECAAB8162BAD02006895F1 /* CKViewControlleriPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CKViewControlleriPhone.xib; sourceTree = "<group>"; };
+		BFECAABA162BAD14006895F1 /* CKViewControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CKViewControlleriPad.xib; sourceTree = "<group>"; };
+		BFECAAC8162BBE26006895F1 /* AFDDeliveryBreakManagedObject+Addon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFDDeliveryBreakManagedObject+Addon.h"; sourceTree = "<group>"; };
+		BFECAAC9162BBE26006895F1 /* AFDDeliveryBreakManagedObject+Addon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFDDeliveryBreakManagedObject+Addon.m"; sourceTree = "<group>"; };
+		BFECAACB162BBE3D006895F1 /* AFDCalendarManagedObject+Addon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFDCalendarManagedObject+Addon.h"; sourceTree = "<group>"; };
+		BFECAACC162BBE3D006895F1 /* AFDCalendarManagedObject+Addon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFDCalendarManagedObject+Addon.m"; sourceTree = "<group>"; };
+		BFECAACE162BBE4B006895F1 /* AFDReminderManagedObject+Addon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFDReminderManagedObject+Addon.h"; sourceTree = "<group>"; };
+		BFECAACF162BBE4B006895F1 /* AFDReminderManagedObject+Addon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFDReminderManagedObject+Addon.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFECAAB7162B8E8A006895F1 /* QuartzCore.framework in Frameworks */,
 				BFECAA8D162B8CB7006895F1 /* UIKit.framework in Frameworks */,
 				BFECAA8F162B8CB7006895F1 /* Foundation.framework in Frameworks */,
 				BFECAA91162B8CB7006895F1 /* CoreGraphics.framework in Frameworks */,
@@ -53,10 +115,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF1FC41716361DE200E5524A /* CKCalendar view */ = {
+			isa = PBXGroup;
+			children = (
+				BFECAAB1162B8D78006895F1 /* CKCalendarView.h */,
+				BFECAAB0162B8D78006895F1 /* CKCalendarView.m */,
+				BF1FC4181636269500E5524A /* DateButton.h */,
+				BF1FC4191636269500E5524A /* DateButton.m */,
+			);
+			name = "CKCalendar view";
+			sourceTree = "<group>";
+		};
+		BF1FC42516364EB100E5524A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				BFDC0FA31630EF22005C8981 /* UIView+GradientLayer.h */,
+				BFDC0FA41630EF22005C8981 /* UIView+GradientLayer.m */,
+				BF1FC42616364EDB00E5524A /* NSDate+dateComparison.h */,
+				BF1FC42716364EDB00E5524A /* NSDate+dateComparison.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		BF6F72C016377FA60018FF5F /* Delivery Break */ = {
+			isa = PBXGroup;
+			children = (
+				BFECAAC8162BBE26006895F1 /* AFDDeliveryBreakManagedObject+Addon.h */,
+				BFECAAC9162BBE26006895F1 /* AFDDeliveryBreakManagedObject+Addon.m */,
+				BF6F72BD16377F990018FF5F /* AFDDeliveryBreakManagedObject+Creation.h */,
+				BF6F72BE16377F990018FF5F /* AFDDeliveryBreakManagedObject+Creation.m */,
+				BF6F72C1163780950018FF5F /* AFDDeliveryBreakManagedObject+Deletion.h */,
+				BF6F72C2163780950018FF5F /* AFDDeliveryBreakManagedObject+Deletion.m */,
+				BF6F72C4163780D20018FF5F /* AFDDeliveryBreakManagedObject+Update.h */,
+				BF6F72C5163780D20018FF5F /* AFDDeliveryBreakManagedObject+Update.m */,
+			);
+			name = "Delivery Break";
+			sourceTree = "<group>";
+		};
+		BFDC0FA61630FEE4005C8981 /* AFDCalendarView not using */ = {
+			isa = PBXGroup;
+			children = (
+				BFDC0F501630D098005C8981 /* AFDCalendarView.xib */,
+				BFDC0F531630D26B005C8981 /* AFDCalendarView.h */,
+				BFDC0F541630D26B005C8981 /* AFDCalendarView.m */,
+				BFAC90C11634B7280029F7BB /* AFDCalendarDateButton.h */,
+				BFAC90C21634B7280029F7BB /* AFDCalendarDateButton.m */,
+			);
+			name = "AFDCalendarView not using";
+			path = AFDCalendarsAndReminders;
+			sourceTree = "<group>";
+		};
+		BFDC0FA71630FEF0005C8981 /* Calendara Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFECAAB3162B8D78006895F1 /* CKViewController.h */,
+				BFECAAB2162B8D78006895F1 /* CKViewController.m */,
+				BFECAAB8162BAD02006895F1 /* CKViewControlleriPhone.xib */,
+				BFECAABA162BAD14006895F1 /* CKViewControlleriPad.xib */,
+			);
+			name = "Calendara Controller";
+			sourceTree = "<group>";
+		};
 		BFECAA7D162B8CB7006895F1 = {
 			isa = PBXGroup;
 			children = (
 				BFECAA94162B8CB7006895F1 /* AFDCalendarsAndReminders */,
+				BFDC0FA61630FEE4005C8981 /* AFDCalendarView not using */,
 				BFECAA8B162B8CB7006895F1 /* Frameworks */,
 				BFECAA89162B8CB7006895F1 /* Products */,
 			);
@@ -84,9 +208,10 @@
 		BFECAA94162B8CB7006895F1 /* AFDCalendarsAndReminders */ = {
 			isa = PBXGroup;
 			children = (
-				BFECAA9D162B8CB7006895F1 /* AFDAppDelegate.h */,
-				BFECAA9E162B8CB7006895F1 /* AFDAppDelegate.m */,
-				BFECAAA6162B8CB7006895F1 /* AFDCalendarsAndReminders.xcdatamodeld */,
+				BFAC91061634C31F0029F7BB /* UserOptionBarButton.png */,
+				BFECAAB6162B8E8A006895F1 /* QuartzCore.framework */,
+				BFECAAAF162B8D5E006895F1 /* Calendar */,
+				BFECAAAE162B8D50006895F1 /* Core Data */,
 				BFECAA95162B8CB7006895F1 /* Supporting Files */,
 			);
 			path = AFDCalendarsAndReminders;
@@ -95,6 +220,10 @@
 		BFECAA95162B8CB7006895F1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BFDC0F971630D4C0005C8981 /* SMUtilities.h */,
+				BFDC0F981630D4C0005C8981 /* SMUtilities.m */,
+				BFECAA9D162B8CB7006895F1 /* AFDAppDelegate.h */,
+				BFECAA9E162B8CB7006895F1 /* AFDAppDelegate.m */,
 				BFECAA96162B8CB7006895F1 /* AFDCalendarsAndReminders-Info.plist */,
 				BFECAA97162B8CB7006895F1 /* InfoPlist.strings */,
 				BFECAA9A162B8CB7006895F1 /* main.m */,
@@ -104,6 +233,51 @@
 				BFECAAA4162B8CB7006895F1 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFECAAAE162B8D50006895F1 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				BFECAABC162BBDD8006895F1 /* NSManagedObject */,
+				BFECAAA6162B8CB7006895F1 /* AFDCalendarsAndReminders.xcdatamodeld */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		BFECAAAF162B8D5E006895F1 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				BF1FC41716361DE200E5524A /* CKCalendar view */,
+				BFDC0FA71630FEF0005C8981 /* Calendara Controller */,
+				BF1FC42516364EB100E5524A /* Categories */,
+			);
+			name = Calendar;
+			sourceTree = "<group>";
+		};
+		BFECAABC162BBDD8006895F1 /* NSManagedObject */ = {
+			isa = PBXGroup;
+			children = (
+				BFECAAC7162BBE09006895F1 /* Add on */,
+				BF6F72CA1637A9C90018FF5F /* AFDCalendarManagedObject.h */,
+				BF6F72CB1637A9C90018FF5F /* AFDCalendarManagedObject.m */,
+				BF6F72CD1637A9CB0018FF5F /* AFDDeliveryBreakManagedObject.h */,
+				BF6F72CE1637A9CB0018FF5F /* AFDDeliveryBreakManagedObject.m */,
+				BF6F72D61637AE540018FF5F /* AFDReminderManagedObject.h */,
+				BF6F72D71637AE550018FF5F /* AFDReminderManagedObject.m */,
+			);
+			name = NSManagedObject;
+			sourceTree = "<group>";
+		};
+		BFECAAC7162BBE09006895F1 /* Add on */ = {
+			isa = PBXGroup;
+			children = (
+				BF6F72C016377FA60018FF5F /* Delivery Break */,
+				BFECAACB162BBE3D006895F1 /* AFDCalendarManagedObject+Addon.h */,
+				BFECAACC162BBE3D006895F1 /* AFDCalendarManagedObject+Addon.m */,
+				BFECAACE162BBE4B006895F1 /* AFDReminderManagedObject+Addon.h */,
+				BFECAACF162BBE4B006895F1 /* AFDReminderManagedObject+Addon.m */,
+			);
+			name = "Add on";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +336,10 @@
 				BFECAAA1162B8CB7006895F1 /* Default.png in Resources */,
 				BFECAAA3162B8CB7006895F1 /* Default@2x.png in Resources */,
 				BFECAAA5162B8CB7006895F1 /* Default-568h@2x.png in Resources */,
+				BFECAAB9162BAD02006895F1 /* CKViewControlleriPhone.xib in Resources */,
+				BFECAABB162BAD14006895F1 /* CKViewControlleriPad.xib in Resources */,
+				BFDC0F511630D099005C8981 /* AFDCalendarView.xib in Resources */,
+				BFAC91071634C31F0029F7BB /* UserOptionBarButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +353,23 @@
 				BFECAA9B162B8CB7006895F1 /* main.m in Sources */,
 				BFECAA9F162B8CB7006895F1 /* AFDAppDelegate.m in Sources */,
 				BFECAAA8162B8CB7006895F1 /* AFDCalendarsAndReminders.xcdatamodeld in Sources */,
+				BFECAAB4162B8D78006895F1 /* CKCalendarView.m in Sources */,
+				BFECAAB5162B8D78006895F1 /* CKViewController.m in Sources */,
+				BFECAACA162BBE26006895F1 /* AFDDeliveryBreakManagedObject+Addon.m in Sources */,
+				BFECAACD162BBE3D006895F1 /* AFDCalendarManagedObject+Addon.m in Sources */,
+				BFECAAD0162BBE4B006895F1 /* AFDReminderManagedObject+Addon.m in Sources */,
+				BFDC0F551630D26C005C8981 /* AFDCalendarView.m in Sources */,
+				BFDC0F991630D4C0005C8981 /* SMUtilities.m in Sources */,
+				BFDC0FA51630EF23005C8981 /* UIView+GradientLayer.m in Sources */,
+				BFAC90C31634B7280029F7BB /* AFDCalendarDateButton.m in Sources */,
+				BF1FC41A1636269500E5524A /* DateButton.m in Sources */,
+				BF1FC42816364EDB00E5524A /* NSDate+dateComparison.m in Sources */,
+				BF6F72BF16377F990018FF5F /* AFDDeliveryBreakManagedObject+Creation.m in Sources */,
+				BF6F72C3163780950018FF5F /* AFDDeliveryBreakManagedObject+Deletion.m in Sources */,
+				BF6F72C6163780D20018FF5F /* AFDDeliveryBreakManagedObject+Update.m in Sources */,
+				BF6F72CC1637A9CA0018FF5F /* AFDCalendarManagedObject.m in Sources */,
+				BF6F72CF1637A9CC0018FF5F /* AFDDeliveryBreakManagedObject.m in Sources */,
+				BF6F72D81637AE550018FF5F /* AFDReminderManagedObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,9 +442,11 @@
 		BFECAAAC162B8CB7006895F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AFDCalendarsAndReminders/AFDCalendarsAndReminders-Prefix.pch";
 				INFOPLIST_FILE = "AFDCalendarsAndReminders/AFDCalendarsAndReminders-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -258,9 +455,11 @@
 		BFECAAAD162B8CB7006895F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AFDCalendarsAndReminders/AFDCalendarsAndReminders-Prefix.pch";
 				INFOPLIST_FILE = "AFDCalendarsAndReminders/AFDCalendarsAndReminders-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -285,6 +484,7 @@
 				BFECAAAD162B8CB7006895F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
